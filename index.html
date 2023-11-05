@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <title>portofolio</title>
 </head>
 <body>
     <div class="header">
-        <div class="header-item">about</div>
-        <div class="header-item">experience</div>
-        <div class="header-item">projects</div>
-        <div class="header-item">contact</div>
+        <a href="#about"><div class="header-item">about</div></a>
+        <a href="#experience"><div class="header-item">experience</div></a>
+        <a href="#projects"><div class="header-item">projects</div></a>
+        <a href="#contact"><div class="header-item">contact</div></a>
     </div>
 
     <div class="content">
-        <div class="about">
+        <div class="about" id="about">
             <div class="about-text">
                 <h1 id="name">oumaima ouyassine</h1>
                 <h2 id="title">ml engineer</h2>
@@ -30,7 +31,7 @@
             <div class="photo"></div>
         </div>
 
-        <div class="experience">
+        <div class="section" id="experience">
             <h1>experience</h1>
             <div class="options">
                 <a id="academic-link"><h2>academic</h2></a>
@@ -38,6 +39,7 @@
             </div>
             
             <div class="option" id="academic">
+                
                 <div class="item" id="item1">
                     <h3>Engineering's degree, data and software enginnering</h3>
                     <p>the national institute of statistics and applied economics, Rabat</p>
@@ -48,6 +50,7 @@
                     <p>mathematics & physics</p>
                     <p>2020-2022</p>
                 </div>
+                
                 <div class="item" id="item3">
                     <h3>Baccalaureate, mathematics</h3>
                     <p>lalla khadija high school, Dakhla</p>
@@ -65,10 +68,46 @@
             </div>
         </div>
 
-        <div class="projects">
+        <div class="section" id="projects">
             <h1>projects</h1>
-            <div class="project"></div>
+            <div class="option" id="pro">
+                <div class="project" id="pro1">
+                    <img src="assets/stocks_icon.png">
+                    <div class="project-details">
+                        <h3>Stock Visualization and Forecasting Web App</h3>
+                        <p>A web application, built using Python Dash, allows users to visualize and forecast stock data. It provides an interactive and user-friendly interface for analyzing historical stock prices and predicting future trends.</p>
+                        <a href="https://github.com/oumaimaoys/visualization_and_forecasting_stocks"><button class="button" role="button">more</button></a>
+                    </div>
+                </div>
+                <div class="project"id="pro2">
+                    <img src="assets/pathfinder_icon.png">
+                    <div class="project-details">
+                        <h3>obstacle avoidance vacuum cleaner on a 2D map</h3>
+                        <p>This project implements a vacuum cleaner agent that operates in a 2D environment, removing dirt and avoiding obstacles. It consists of three classes: Agent, Environment, and VacuumCleaner.</p>
+                        <a href="https://github.com/oumaimaoys/obstacle-avoidance-vacuum-2D"><button class="button" role="button">more</button></a>
+                    </div>
+                </div>
+                <div class="project" id="pro3">
+                    <img src="assets/account_icon.png">
+                    <div class="project-details">
+                        <h3>Employees Accounts Manager</h3>
+                        <p>This app is a Django application designed to streamline user account management across various platforms through API requests. With this app, users can efficiently create and delete accounts on different platforms without having to navigate each platform's individual interface.</p>
+                        <a href="https://github.com/oumaimaoys/password_manager"><button class="button" role="button">more</button></a>
+                    </div>
+                </div>
+                <div class="project" id="pro4">
+                    <img src="assets/weather_icon.png">
+                    <div class="project-details">
+                        <h3>weather web application</h3>
+                        <p>A simple web application that integrates an API to display weather for a given city.</p>
+                        <a href="https://github.com/oumaimaoys/weather_app"><button class="button" role="button">more</button></a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="footer" id="contact">
+
     </div>
     <script src="script.js"></script>
 </body>
