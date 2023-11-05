@@ -276,5 +276,35 @@ a{
     height: 30vh; 
     width: 100%;
     margin-top: 30px;
+    padding-top: 30px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 400px;
 }
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.footer-item p{
+    color: #5D5F71;
+    padding: 0;
+    margin: 0;
+}
+.footer-item h2{
+    color: #141301;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+#email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
