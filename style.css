@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700&family=Fahkwang:wght@300;400;500;700&family=Lora:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700&family=Lora:wght@400;500;700&family=Poppins:wght@100;300;400;500;700&display=swap');
+body{
+
+    background: rgb(244,243,238);
+    background: linear-gradient(40deg, rgba(244,243,238,1) 28%, rgba(242,239,235,1) 53%, rgba(218,190,202,1) 81%, rgba(191,139,133,1) 100%);
+    font-family: 'Poppins',Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #141301;
+    
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.header{
+    display: flex;
+    gap:40px;
+    align-items: center; 
+    justify-content: center;
+    height: 10vh; 
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensures it's on top of other elements */
+    transition: background-color 0.2s ease;
+}
+
+.header-item{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    line-height: 47px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 16% 0px 16%;
+    margin-top: 10vh; 
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    height: 90vh;
+}
+.photo{
+    height: 400px;
+    width: 30%;
+    background: none;
+ 
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 400px;
+    width: 70%;
+}
+
+.about-text p{
+    margin:0;
+    padding: 0;
+    width:auto;
+    font-size: 20px;
+}
+
+.about-text h1{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Fahkwang','Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.about-text h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color:#5D5F71;
+}
+
+.icons{
+    display: flex;
+    gap:15px;
+    padding: 0px 20px 0px 20px;
+    margin-top: 10px;
+
+}
+
+.icons img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.experience h1{
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+.experience h2{
+    text-transform: capitalize;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.options h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #5D5F71;
+}
+.options h2:hover{
+    color: #BF8B85;
+    cursor: pointer;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.item h3, p {
+    padding: 0;
+    margin: 0;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+    align-items: center;
+    width: 100%;
+    padding: 20px 5px 20px 5px;  
+}
+#item2{
+    background-color: rgba(244, 243, 238, 0.228);
+}
+#item1, #item3{
+    background-color: rgba(158, 163, 162, 0.447);
+}
+.projects h1{
+    text-transform: capitalize;
+}
