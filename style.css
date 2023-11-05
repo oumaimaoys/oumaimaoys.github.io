@@ -16,14 +16,6 @@ body{
     
 }
 
-h1{
-    font-size: 40px;
-}
-
-h2{
-    font-size: 25px;
-}
-
 .header{
     display: flex;
     gap:40px;
@@ -198,7 +190,7 @@ a{
 }
 
 .project-details{
-    height: 250px;
+    height: max-content;
     margin: 0;
     padding: 0;
     display: flex;
@@ -208,7 +200,10 @@ a{
 }
 .project-details h3{
     text-transform: capitalize;
+    margin: 0;
+    padding: 0;
 }
+
 #pro1, #pro3{
     background-color: rgba(201, 206, 205, 0.368);
 }
@@ -279,9 +274,8 @@ a{
     padding-top: 30px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
-    gap: 400px;
+    justify-content: space-around;
 }
 
 .footer-item{
@@ -308,3 +302,34 @@ a{
     gap: 20px;
 }
 
+@media (max-width:1131px) {
+    .header-item{
+        font-size: 10px;
+    }
+
+    .about-text h1{
+        font-size: 40px;
+    }
+
+    .about-text h2{
+        font-size: 15px;
+    }
+
+    .about-text p{
+        font-size: 15px;
+    }
+
+    .project-details h3, p{
+        font-size: smaller;
+    }
+
+    #projects img{
+        height: 200px;
+        width:200px;
+    }
+
+    .footer-item h2, p{
+        font-size: smaller;
+    }
+   
+}
