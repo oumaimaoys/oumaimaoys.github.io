@@ -4,7 +4,7 @@
 body{
 
     background: rgb(244,243,238);
-    background: linear-gradient(40deg, rgba(244,243,238,1) 28%, rgba(242,239,235,1) 53%, rgba(218,190,202,1) 81%, rgba(191,139,133,1) 100%);
+    background: linear-gradient(40deg, rgba(244,243,238,1) 25%, rgba(199,207,212,1) 56%, rgba(94,126,148,1) 85%, rgba(51,92,129,1) 100%);
     font-family: 'Poppins',Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@ body{
     cursor: pointer;
 }
 .header-item:hover{
-    color: #BF8B85;
+    color: #A9ACA9;
 }
 
 a{
@@ -143,7 +143,7 @@ a{
     color: #5D5F71;
 }
 .options h2:hover{
-    color: #BF8B85;
+    color: #2F2235;
     cursor: pointer;
 }
 .option{
@@ -209,11 +209,11 @@ a{
 }
 .button {
   align-items: center;
-  background-color: #fee6e3;
+  background-color: #93A8AC;
   border: 2px solid #111;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color: #000000;
   cursor: pointer;
   display: flex;
   font-family: Inter,sans-serif;
@@ -267,7 +267,7 @@ a{
 
 
 .footer{
-    background-color: #DABECA;
+    background-color: #93A8AC;
     height: 30vh; 
     width: 100%;
     margin-top: 30px;
